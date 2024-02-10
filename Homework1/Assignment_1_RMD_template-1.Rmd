@@ -178,9 +178,8 @@ a)  Some variables in the dataset were collected in 1997 before treatment began.
 
     For the household size variable there is a slight difference in the means but since the difference is less than one full person, it is generally safe to say the means are equal. As for the proportion tests, ht home ownership variable and the dirt floor variable both have high p values which shows that the difference in proportions are not different at the statistically significant level.
 
-```{=html}
 <!-- -->
-```
+
 a)  Does it matter whether there are systematic differences? Why or why not? Would it be a mistake to do the same test with these variables if they were collected after treatment began and if so why?
 
 Yes, it matters. It would be a mistake to to do the same test with these variables if it showed that they were different at a statistcally significant level. This is because you don't want to run an experiment where the treatment and the control groups have vastly different characteristics. This would add in a layer of confounding variables because you wouldn't know whether the treatment would work for all individuals or if the individuals in the treatment group had some characteristic that impacted their outcome for the treatment.
