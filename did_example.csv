@@ -1,0 +1,5 @@
+obs,employment,constant,post_treat,treated,time_x_treated
+1,23.33,1,0,0,0
+2,20.44,1,0,1,0
+3,21.17,1,1,0,0
+4,21.03,1,1,1,1

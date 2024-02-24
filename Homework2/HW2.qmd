@@ -271,7 +271,7 @@ ATE_IPW
 
 data$wgt = (D/PS + (1-D)/(1-PS))
 ## Weighted least Squares (WLS) Estimates
-reg_wls	<-lm(tobacco ~  anemia+ diabete + alcohol + mblack + first + mage + meduc,
+reg_wls	<-lm(birthwgt ~  tobacco + anemia+ diabete + alcohol + mblack + first + mage + meduc,
           data = data, weights = wgt)
 
 
